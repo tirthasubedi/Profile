@@ -1,2 +1,2 @@
 # Profile
-TIrtha Personal Website
+Tirtha's Personal Website
