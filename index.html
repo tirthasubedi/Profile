@@ -1,145 +1,474 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
 
-/*  file:///home/rajsubed/Desktop/myprofile/index.html  */
 
 <html>
-
-	<head>
-		<title>"Raj Subedi's Profile"</title>
-	<div class="bg"></div>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<style>
-	body, html {
-		height:100%;
-		margin:0;
+<head>
+<title>"Raj Subedi's Profile"</title>
+<style>
+	body {
+		background-image:url("background1.png");
+		background-position:top;
+		background-repeat: no-repeat;
+		background-size: 100%;
+</style>
+		<div class="animation"> <h2 style="background-color:white; color:green; text-underline-position:left"> Welcome To My WebSite</h2>		
+		</div>
 	}
 
-	.bg{
+	<div class="navbar">  
+		<ul>
+			<li><a href="index.html"> Home</a></li>
+			<li><a href="#project">Project</a></li>
+			<li><a href="http://www.linkedin.com/in/tirtha-subedi">Linkedin</a></li>
+			<li><a href="http://www.github.com/tirthasubedi">Github</a></li>
+	</div>
 
-		background: 
-		url("background1.png"), url("me2.jpg");
-		padding-top:10%;
-		height: 100%;
-		width:100%; 
+
 		
-		background-position:center;
-		background-repeat: repeat;
-		width:100%; 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-	}
-	 <div class="container">
-  <img src="notebook.jpg" alt="Notebook" style="width:100%;">
-  <div class="content">
-    <h1>Heading</h1>
-    <p>Lorem ipsum..</p>
-  </div>
-</div> 
-	.container {
-    position: relative;
-    max-width: 800px; /* Maximum width */
-    margin: 0 auto; /* Center it */
+<style>
+.selfpic{
+	width:200px;border-radius: 50%;
+  margin-left: 10px;
 }
 
-.container .content {
-    position: absolute; /* Position the background text */
-    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-    color: #f1f1f1; /* Grey text */
-    width: 100%; /* Full width */
-    padding: 20px; /* Some padding */
-}
 </style>
 
-/*
-	<h1 style="background-color:#1a561b"> Welcome To My Site</h1>
-		
+<img src="IMG_5879.JPG" alt="Avatar" style="width:200px;border-radius: 50%;
+  margin-left: 10px;
+  top:200px;" >
 
-		<style>
-			body {background-color: black;}
-			h1 {color: white;}
-			p {color:red;}
+<style>
+ .aboutme{ 
+	color:white; width: 320px;
+    padding: 1px;
+    border: 5px solid gray;
+    
+ 
+</style>
+	<div class= "aboutme" style=" margin-left: 1000px; margin-top: -450px; position: absolute;"><h4 style="text-align:center;">About Me:</h4> My Name is Tirtha Subedi. I am Junior studying Computer at Berea College and working as Student Computer Technician & Teacher Assistant for CS course. Click Here for More--> </div>
 
-			ul {
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
-				overflow: hidden;
-				background-color: #7c2222;
-			}
+<style>
 
-			li{
+		ul {
+		    list-style-type: none;
+		    margin: 0;
+		    padding: 0px;
+		    width: 100px;
+		    background-color: lightblue;
+			margin-top: 0px;
+			margin-left: 70px;
+		}
 
-				float:left;
+		li a {
 
-			}
+		    display: block;
+		    color: black;
+		    padding: 20px 20px;
+		    text-decoration: none;
+		    border-bottom: 1px solid #555;
+		    position:30px 20px;
 
-			li a{
+		}
 
-				display: block;
-				color:white;
-				text-align: center;
-				padding: 16px;
-				text-decoration: none;
+		/* Change the link color on hover */
+		li a:hover {
+		    background-color: #555;
+		    color:white;
+		}
+</style>
 
-			}
 
-			li a:hover{
-				background-color:#111111;
-			}
+</style>
+	
+<style>
 
-		</style>
-		<ul>
-			<li><a href="#home">Home</a></li>
-			<li><a href="#project">Project</a></li>
-			<li><a href="#contact">Contact</a></li>
-	</head>
+	.animation{
+	    width: 400px;
+	    height: 50px;
+	    text-align: center;
+	    background: lightblue;
+	    position: relative;
+	    -webkit-animation: mymove 5s infinite; 
+	    -webkit-animation-timing-function: linear; 
+	    animation: mymove 5s infinite;
+	    animation-timing-function: linear;
+	}
 
-	<body>
+/* Safari 4.0 - 8.0 */
+		@-webkit-keyframes mymove {
+		    from {left: 300px;}
+		    to {left: 700px;}
+		}
+
+		@keyframes mymove {
+		    from {left: 300px;}
+		    to {left: 700px;}
+		}
+</style>
+
+
+
+<style>
+* {box-sizing: border-box}
+
+.container {
+  width: 30%;
+  background-color: #ddd;
+
+
+}
+
+.skills {
+  text-align: center;
+  padding-right: 0px;
+  line-height: 20px;
+  color: black;
+}
+
+.python {width: 70%; background-color: green;};
+.html {width: 60%; background-color: black;}
+.js {width: 40%; background-color: red;}
+.cplus {width: 40%; background-color: purple;}
+</style>
+</head>
+<body>
+
+<h1 style="color:white;
+  position: absolute;
+  bottom: 100px;
+  left: 70px;
+  font-family: "Times New Roman", Times, serif;
+"><u>My Skills</u></h1>
+
+
+<div class="container" style="color:black;
+  position: absolute;
+  bottom: 80px;
+  left: 75px;
+  ">
+  <div class=" skills python"><center>Python 70%</center></div>
+</div>
+
+
+
+
+<div class="container" style="color:red;
+  position: absolute;
+  bottom: 20px;
+  left: 75px;
+  "><div class=" skills js"><center>JavaScript 40%</center></div>
+</div>
+
+<div class="container" style="color:black;
+  position: absolute;
+  bottom: 50px;
+  left: 75px;
+  "><div class=" skills html"><center>HTML 60%</center></div>
+</div>
+
+
+<div class="container" style="color:purple;
+  position: absolute;
+  bottom: -10px;
+  left: 75px;
+  "><div class="skills cplus"><center>C++ 40%</center></div>
+</div>
+
+
+<footer style="color: green; margin-top:500px; left: 75px;">CopyRight @2018</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+#start working here
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<foot>
+<style>
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin-top:0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+</style>
+<body>
+
+<h2 style="text-align:center;">Project OverView</h2>
+<h4 style="text-align:center;">Please Visit Github for more:</h4>
+
+<div class="row">
+  <div class="column">
+    <img src="upcscanner.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="nimgame.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="dnastructure.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="gussinggame.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="upcscanner.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="nimgame.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="dnastructure.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="gussinggame.png" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="upcscanner.jpg" style="width:100%" onclick="currentSlide(1)" alt="UPC BarCode Scanner">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="nimgame.jpg" style="width:100%" onclick="currentSlide(2)" alt="Game of Nim">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="dnastructure.jpg" style="width:100%" onclick="currentSlide(3)" alt="DNA Structure Matching">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="gussinggame.png" style="width:100%" onclick="currentSlide(4)" alt="Animal Gussing Game">
+    </div>
+  </div>
+</div>
 
 <script>
-function light(sw) {
-    var pic;
-    if (sw == 0) {
-        pic = "pic_bulboff.gif"
-    } else {
-        pic = "pic_bulbon.gif"
-    }
-    document.getElementById('myImage').src = pic;
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
 }
 </script>
+    
+</body>
 
-<img id="myImage" src="pic_bulboff.gif" width="100" height="180">
+</foot>
 
-<p>
-<button type="button" onclick="light(1)">Light On</button>
-<button type="button" onclick="light(0)">Light Off</button>
-</p>
+
+
+
+
 		
-		<br><br/>
-	<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-Click me to display Date and Time.</button>
 
-<p id="demo"></p>
-		<p> Welcome To my Profile,</p> 
-		<h2>Current Job Status:</h2> 
-		<p> Seeking For Internship</p>
-
-		<button onclick="myFunction()">Hide Image</button>
-	    
-			<img class= "success" src="success.jpg" alt="success" style="float:center; width:500px ; height:600px; align-items: center;">
-
-			<script>
-				function myFunction() {
-
-					var x= document.getElememnmt
-				}
-
-			</script>
-	</body>
-
-*/
-
-
-
-</html>
